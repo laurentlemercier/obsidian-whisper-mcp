@@ -1,4 +1,4 @@
-# Obsidian Whisper MCP — V0.4.0
+# Obsidian Whisper MCP — V0.5.1
 
 Plugin Obsidian desktop qui utilise ton serveur Whisper via MCP Streamable HTTP.
 
