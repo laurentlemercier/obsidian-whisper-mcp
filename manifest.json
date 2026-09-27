@@ -1,0 +1,9 @@
+{
+  "id": "whisper-mcp",
+  "name": "Whisper MCP",
+  "version": "0.5.1",
+  "minAppVersion": "1.12.7",
+  "description": "Client MCP Streamable HTTP pour transcrire des fichiers audio avec un service Whisper externe.",
+  "author": "Laurent Lemercier",
+  "isDesktopOnly": true
+}

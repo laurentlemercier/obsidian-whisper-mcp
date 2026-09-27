@@ -1,0 +1,22 @@
+{
+  "name": "obsidian-whisper-mcp",
+  "version": "0.5.1",
+  "private": true,
+  "description": "Obsidian plugin - Whisper MCP client",
+  "scripts": {
+    "dev": "node esbuild.config.mjs development",
+    "build": "node esbuild.config.mjs production"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.30.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "esbuild": "^0.25.0",
+    "obsidian": "^1.13.1",
+    "typescript": "^5.8.0"
+  },
+  "allowScripts": {
+    "esbuild@0.25.12": true
+  }
+}

@@ -1,0 +1,18 @@
+V0.5.1 - build local
+
+Cette archive contient le code source corrige de la V0.5.1.
+Le fichier main.js n'est pas inclus car l'environnement de generation ne dispose pas d'un acces au registre npm pour installer @modelcontextprotocol/sdk et esbuild.
+
+Dans le dossier du plugin :
+  npm install
+  npm run build
+
+Puis copier main.js, manifest.json et styles.css (s'il existe) dans :
+  <vault>/.obsidian/plugins/whisper-mcp/
+
+Corrections V0.5.1 :
+- insertion du lien de transcription juste apres la ligne audio de la note active ;
+- parametre "Repertoire des notes (Clippings)" expose dans les reglages ;
+- snapshot des fichiers audio au demarrage : les fichiers deja presents ne sont jamais consideres comme nouveaux ;
+- memorisation persistante des fichiers deja transcrits ;
+- traitement automatique uniquement des nouveaux fichiers.
